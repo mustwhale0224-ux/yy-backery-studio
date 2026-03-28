@@ -54,6 +54,12 @@
       padding:16px;
       margin-bottom:18px;
     }
+    .brand-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand-logo{
+      width:84px;height:84px;flex:0 0 auto;object-fit:cover;
+      border:3px solid var(--line);border-radius:18px;background:#fff;
+      box-shadow:3px 3px 0 rgba(43,39,34,.9)
+    }
     .brand h1{
       margin:0;
       font-size:28px;
@@ -235,7 +241,10 @@
   <div class="shell">
     <aside class="sidebar">
       <div class="brand">
-        <h1>yy backery studio</h1>
+        <div class="brand-head">
+          <h1>yy backery studio</h1>
+          <img class="brand-logo" src="top-bg.png" alt="yy backery studio">
+        </div>
         <p>每一次烘焙实验和想法清单。</p>
       </div>
 
